@@ -1,4 +1,4 @@
-package com.solo.myfirstandroidapp.ui.exercises;
+package com.solo.myfirstandroidapp.ui.Fragmentexercises;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

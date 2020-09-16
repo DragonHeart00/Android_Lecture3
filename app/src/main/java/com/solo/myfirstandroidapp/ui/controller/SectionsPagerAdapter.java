@@ -9,11 +9,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import com.solo.myfirstandroidapp.R;
-import com.solo.myfirstandroidapp.ui.exercises.Fragment1;
-import com.solo.myfirstandroidapp.ui.exercises.Fragment2;
-import com.solo.myfirstandroidapp.ui.exercises.Fragment3;
-import com.solo.myfirstandroidapp.ui.exercises.Fragment4;
-import com.solo.myfirstandroidapp.ui.exercises.Fragment5;
+import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment1;
+import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment2;
+import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment3;
+import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment4;
+import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment5;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to

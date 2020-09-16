@@ -1,4 +1,4 @@
-package com.solo.myfirstandroidapp.ui.exercises;
+package com.solo.myfirstandroidapp.ui.Fragmentexercises;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,16 +11,10 @@ import androidx.fragment.app.Fragment;
 
 import com.solo.myfirstandroidapp.R;
 
-public class Fragment4 extends Fragment {
-
-
+public class Fragment3 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view= inflater.inflate(R.layout.fragment4_layout,container,false);
-
-
-
-        return view;
+        return inflater.inflate(R.layout.fragment3_layout,container,false);
     }
 }
