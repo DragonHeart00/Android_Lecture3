@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,7 +16,8 @@ import androidx.fragment.app.Fragment;
 import com.solo.myfirstandroidapp.R;
 
 public class Fragment4 extends Fragment {
-    Button button1,button2,button3,button4;
+    Button button1,button2,button3;
+    TextView textView;
 
     @Nullable
     @Override
@@ -24,6 +26,7 @@ public class Fragment4 extends Fragment {
 
         button2 = view.findViewById(R.id.button72);
         button3 = view.findViewById(R.id.button73);
+        textView = view.findViewById(R.id.textView5);
 
         button1 = view.findViewById(R.id.button71);
         button1.setText("tryk på mig Først");
@@ -50,6 +53,7 @@ public class Fragment4 extends Fragment {
                 long etTal = System.currentTimeMillis();
                 if (view == button2) {
                     button3.setText("Nej nej,tryk på mig i stedet! " + etTal);
+                    textView.setText("Tro på mig!, du trykkede den rigtig knap :) :)");
 
                 }
             }
