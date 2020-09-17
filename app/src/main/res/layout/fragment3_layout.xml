@@ -9,13 +9,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="297dp"
 
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
-        android:text="Øvelse6"
-        android:textSize="30sp"
+        android:layout_height="58dp"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="@string/exercise6title"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
