@@ -7,7 +7,6 @@ import androidx.annotation.StringRes;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-
 import com.solo.myfirstandroidapp.R;
 import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment1;
 import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment2;
@@ -15,10 +14,7 @@ import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment3;
 import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment4;
 import com.solo.myfirstandroidapp.ui.Fragmentexercises.Fragment5;
 
-/**
- * A [FragmentPagerAdapter] that returns a fragment corresponding to
- * one of the sections/tabs/pages.
- */
+
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
@@ -49,8 +45,10 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
          case 4:
              fragment = new Fragment5();
              break;
-     }
+
+       }
     return fragment;
+
     }
 
     @Nullable
