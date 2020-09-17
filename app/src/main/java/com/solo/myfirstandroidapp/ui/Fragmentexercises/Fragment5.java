@@ -1,5 +1,6 @@
 package com.solo.myfirstandroidapp.ui.Fragmentexercises;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,9 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.solo.myfirstandroidapp.R;
+import com.solo.myfirstandroidapp.activities.MainActivity2;
+import com.solo.myfirstandroidapp.activities.MainEksplicitteActivity;
+import com.solo.myfirstandroidapp.activities.MainImplicitteActivity;
 
 public class Fragment5 extends Fragment {
     private Button implicitte, eksplicitte;
@@ -25,7 +29,8 @@ public class Fragment5 extends Fragment {
         implicitte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getActivity(), MainImplicitteActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -33,6 +38,8 @@ public class Fragment5 extends Fragment {
         eksplicitte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), MainEksplicitteActivity.class);
+                startActivity(intent);
 
             }
         });
