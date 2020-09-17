@@ -11,6 +11,9 @@
     <string name="hint">Ex: Java or Dr</string>
     <string name="exercise6title">6 Øvelse: Udforsk AndroidElementer</string>
     <string name="exercise7title">7 Lytte efter hændelser - en opskrift</string>
+    <string name="exercise8title">8 Implicitte og Eksplicitte intents</string>
+
+
     <string name="gotohomepage">See in Github</string>
 
 
