@@ -5,11 +5,15 @@
     <string name="tab_text_3">Øvelse 6</string>
     <string name="tab_text_4">Øvelse 7</string>
     <string name="tab_text_5">Øvelse 8</string>
-    <string name="exercise4title">1.4 Øvelse: Dit første Android-program</string>
+    <string name="exercise4title">4 Øvelse: Dit første Android-program</string>
     <string name="show">i show what you wrote when you click the button</string>
-    <string name="exercise5title">1.5 Øvelse: Lave en webbrowser</string>
+    <string name="exercise5title">5 Øvelse: Lave en webbrowser</string>
     <string name="hint">Ex: Java or Dr</string>
-    <string name="exercise6title">1.6 Øvelse: Udforsk AndroidElementer</string>
+    <string name="exercise6title">6 Øvelse: Udforsk AndroidElementer</string>
+    <string name="exercise7title">7 Lytte efter hændelser - en opskrift</string>
     <string name="gotohomepage">See in Github</string>
+
+
+
 
 </resources>
