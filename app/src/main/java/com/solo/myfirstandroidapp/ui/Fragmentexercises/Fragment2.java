@@ -29,7 +29,7 @@ public class Fragment2 extends Fragment {
         View view= inflater.inflate(R.layout.fragment2_layout,container,false);
 
         button =view.findViewById(R.id.button);
-        textView=view.findViewById(R.id.textView2);
+        textView=view.findViewById(R.id.textView4);
         editText=view.findViewById(R.id.editTextweb);
         webView=view.findViewById(R.id.webview);
 
@@ -45,15 +45,17 @@ public class Fragment2 extends Fragment {
                 if (editText.getText().toString().equals("Java")|| editText.getText().toString().equals("java")){
 
                     webView.loadUrl("https://javabog.dk");
+                    textView.setText("Javabog");
 
                     Toast.makeText(getActivity(),"Welcome to " + editText.getText().toString() + " Webpage",Toast.LENGTH_SHORT).show();
 
                 }else if (editText.getText().toString().equals("Dr") || editText.getText().toString().equals("dr")){
                     webView.loadUrl("https://www.dr.dk/");
+                    textView.setText("Dr nyheder");
 
                     Toast.makeText(getActivity(),"Welcome to " + editText.getText().toString() + " Webpage",Toast.LENGTH_SHORT).show();
                 }else
-                    textView.setText(editText.getText().toString() + " is not found");
+                    textView.setText(editText.getText().toString() + " is not found plasae try java or dr");
             }
 
         });

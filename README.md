@@ -1,2 +1,4 @@
 # s195462
-my first app
+Første aflevering
+Programmatisk brugergrænseflade (layout)
+Deklarative layouts
